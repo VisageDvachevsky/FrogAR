@@ -1,0 +1,529 @@
+{
+    "objects": [
+        {
+            "name": "AR Session Origin",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform",
+                "ARSessionOrigin",
+                "ARPlaneManager"
+            ]
+        },
+        {
+            "name": "AR Camera",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "MainCamera",
+            "components": [
+                "Transform",
+                "Camera",
+                "AudioListener",
+                "ARPoseDriver",
+                "ARCameraManager",
+                "ARCameraBackground"
+            ]
+        },
+        {
+            "name": "Trackables",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform"
+            ]
+        },
+        {
+            "name": "AR Session",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform",
+                "ARSession",
+                "ARInputManager"
+            ]
+        },
+        {
+            "name": "AR Default Plane",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform",
+                "ARPlane",
+                "ARPlaneMeshVisualizer",
+                "MeshCollider",
+                "MeshFilter",
+                "MeshRenderer",
+                "LineRenderer"
+            ]
+        },
+        {
+            "name": "EventSystem",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform",
+                "EventSystem",
+                "StandaloneInputModule",
+                "BaseInput"
+            ]
+        },
+        {
+            "name": "Canvas",
+            "position": {
+                "x": 149.0,
+                "y": 265.25,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "Canvas",
+                "CanvasScaler",
+                "GraphicRaycaster"
+            ]
+        },
+        {
+            "name": "SelectionMenu",
+            "position": {
+                "x": 20.614990234375,
+                "y": 154.1062774658203,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.7071068286895752,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "Animator"
+            ]
+        },
+        {
+            "name": "SelectionMenu_bg",
+            "position": {
+                "x": 20.614990234375,
+                "y": 154.1062774658203,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.7071068286895752,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 0.3958008289337158,
+                "y": 0.3958008289337158,
+                "z": 0.3958008289337158
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image"
+            ]
+        },
+        {
+            "name": "SelectionMenu_button",
+            "position": {
+                "x": 20.614990234375,
+                "y": 154.1062774658203,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.7071068286895752,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 0.27339214086532595,
+                "y": 0.27339214086532595,
+                "z": 0.27339214086532595
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "Button"
+            ]
+        },
+        {
+            "name": "SelectorMenu",
+            "position": {
+                "x": 147.9150390625,
+                "y": 352.40631103515627,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 2.9514992237091066,
+                "y": 3.5550806522369386,
+                "z": 2.9514999389648439
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image"
+            ]
+        },
+        {
+            "name": "Button (Legacy)",
+            "position": {
+                "x": 147.91502380371095,
+                "y": 481.4556884765625,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 0.49088001251220705,
+                "y": 0.49088001251220705,
+                "z": 0.49088001251220705
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "Button"
+            ]
+        },
+        {
+            "name": "Text (Legacy)",
+            "position": {
+                "x": 147.91502380371095,
+                "y": 481.4556884765625,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Text"
+            ]
+        },
+        {
+            "name": "Button (Legacy) (1)",
+            "position": {
+                "x": 147.9150390625,
+                "y": 408.93206787109377,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 0.49088001251220705,
+                "y": 0.49088001251220705,
+                "z": 0.49088001251220705
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "Button"
+            ]
+        },
+        {
+            "name": "Text (Legacy)",
+            "position": {
+                "x": 147.9150390625,
+                "y": 408.93206787109377,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Text"
+            ]
+        },
+        {
+            "name": "Button (Legacy) (2)",
+            "position": {
+                "x": 147.91502380371095,
+                "y": 336.408447265625,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 0.49088001251220705,
+                "y": 0.49088001251220705,
+                "z": 0.49088001251220705
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "Button"
+            ]
+        },
+        {
+            "name": "Text (Legacy)",
+            "position": {
+                "x": 147.91502380371095,
+                "y": 336.408447265625,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Text"
+            ]
+        },
+        {
+            "name": "Button (Legacy) (3)",
+            "position": {
+                "x": 147.9150390625,
+                "y": 266.3733215332031,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 0.49088001251220705,
+                "y": 0.49088001251220705,
+                "z": 0.49088001251220705
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "Button"
+            ]
+        },
+        {
+            "name": "Text (Legacy)",
+            "position": {
+                "x": 147.9150390625,
+                "y": 266.3733215332031,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0000001192092896
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Text"
+            ]
+        },
+        {
+            "name": "StateMachine",
+            "position": {
+                "x": 209.40921020507813,
+                "y": 563.273681640625,
+                "z": 20.07233428955078
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tag": "Untagged",
+            "components": [
+                "Transform",
+                "MenuManager"
+            ]
+        }
+    ],
+    "sceneDescription": "",
+    "objectCount": 0,
+    "usedResources": [],
+    "cameraPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "cameraRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "lights": []
+}
